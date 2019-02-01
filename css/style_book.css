@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body {
+  background-color: #f1f1f1;
+  margin:0px 100px;
+  height:1000px;  
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent;  
+}
+
+#regForm {
+  background-color:#ffffff;
+  margin: 40px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 80%;
+  height:450px;
+  margin-top: 38px;
+
+}
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+input.invalid {
+  background-color:#ffdddd;
+}
+
+.tab {
+  display: none;
+  text-align: center;
+
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  padding: 5px 5px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.prevBtn {
+  background-color: white;
+  padding:10px 13px;
+  color:black;
+}
+.nextBtn {
+  margin-top:50px;
+  background-color:#FFBC00;
+  padding:10px 25px;
+  margin-left:10px;
+}
+.set-nav{
+  background-color:white;
+}
+.step.finish {
+  background-color: #4CAF50;
+}
+.btn-info{
+  margin-top:10px;
+  padding:13px 10px;
+  background-color:#85FF92;
+  border:1px solid #5BE869;
+
+
+}
+.go-home{
+  padding:10px 30px;
+  margin-top:20px;
+  background-color: #FFBC00;
+  color:black;
+}
+#go-down{
+  margin-top:132px;
+}
+img{
+  width:90px;
+  height:50px;
+  margin-left:30px;
+}
+.date{
+  width:350px;
+  background-color:#EFEFEF;
+  border:none;
+}
+.contact{
+  margin-left:900px;
+  margin-bottom:30px;
+  margin-top:10px;
+}
+.set-h5{
+  margin-right:550px;
+  top:50px;
+}
+.box-bg{
+width:350px;
+background-color:#EFEFEF;
+border:none;
+}
+.name{
+  margin-right:271px;
+  margin-bottom:10px;
+}
+.name-h6{
+  margin-right:15px;
+  margin-top:0px;
+  margin-bottom:0px;
+  color:#D8D8D8;
+  font-weight:900;
+}
+
+.set-h6{
+  margin-right:280px;
+  margin-bottom:10px;
+}
+#p-tag{  
+    font-size: 17px;
+    color: black;
+    font-weight: 200;
+}
+#para{
+  margin-bottom:20px;
+}
+a{
+  text-decoration: none;
+}
+.time{
+  margin-left:-16px;
+}
+
